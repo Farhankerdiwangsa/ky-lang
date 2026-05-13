@@ -1,4 +1,4 @@
-# Dokumentasi Bahasa Pemrograman .ky
+# Dokumentasi Bahasa Pemrograman kylang
 
 > **Language ky-lang** — Bahasa pemrograman edukatif berbahasa Indonesia  
 > Diciptakan dan dikembangkan oleh **Farhan Kertadiwangsa**
