@@ -817,7 +817,7 @@ galat("Sesuatu salah!")
 
 ## Benchmark Kecepatan
 
-Benchmark dijalankan pada mesin dengan interpreter .ky yang dikompilasi dari Go. Hasil ini mencerminkan kinerja aktual *tree-walk interpreter* — bukan compiler atau JIT — dan dimaksudkan sebagai referensi yang jujur.
+Benchmark dijalankan pada mesin dengan interpreter kylang yang dikompilasi dari Go. Hasil ini mencerminkan kinerja aktual *tree-walk interpreter* — bukan compiler atau JIT — dan dimaksudkan sebagai referensi yang jujur.
 
 > **Lingkungan pengujian:** Go 1.25, Linux x86-64, build tanpa optimasi tambahan.  
 > Setiap angka adalah hasil rata-rata dari beberapa run.
@@ -835,7 +835,7 @@ Benchmark dijalankan pada mesin dengan interpreter .ky yang dikompilasi dari Go.
 
 ### Interpretasi Jujur
 
-**.ky adalah tree-walk interpreter**, bukan compiler. Ini berarti:
+**kylang adalah tree-walk interpreter**, bukan compiler. Ini berarti:
 
 - Kecepatan eksekusi sekitar **10–100× lebih lambat** dari bahasa yang dikompilasi seperti Go, C, atau Java.
 - Fibonacci rekursif `fib(30)` akan terasa lambat — ini wajar dan konsisten dengan interpreter sejenis seperti Ruby MRI atau Python (CPython) tanpa JIT.
@@ -861,7 +861,7 @@ Benchmark dijalankan pada mesin dengan interpreter .ky yang dikompilasi dari Go.
 
 ### Tujuan Utama
 
-**.ky** dibangun dengan satu premis sederhana: hambatan bahasa asing tidak seharusnya menghalangi seseorang untuk belajar logika pemrograman. Dengan kata kunci Indonesia, pelajar dapat fokus pada *konsep* — variabel, kondisi, perulangan, fungsi — tanpa perlu menghafal terminologi asing secara bersamaan.
+**kylang** dibangun dengan satu premis sederhana: hambatan bahasa asing tidak seharusnya menghalangi seseorang untuk belajar logika pemrograman. Dengan kata kunci Indonesia, pelajar dapat fokus pada *konsep* — variabel, kondisi, perulangan, fungsi — tanpa perlu menghafal terminologi asing secara bersamaan.
 
 ### Keputusan Arsitektur
 
@@ -886,4 +886,4 @@ Array dirancang tidak bisa dimodifikasi di tempat. Setiap operasi modifikasi men
 ---
 
 *Dokumentasi ini mencerminkan kondisi interpreter versi saat ini.*  
-*Language .ky — Created and Developed by Farhan Kertadiwangsa*
+*Language kylang — Created and Developed by Farhan Kertadiwangsa*
