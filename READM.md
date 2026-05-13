@@ -1,6 +1,6 @@
 # Dokumentasi Bahasa Pemrograman .ky
 
-> **Language .ky** — Bahasa pemrograman edukatif berbahasa Indonesia  
+> **Language ky-lang** — Bahasa pemrograman edukatif berbahasa Indonesia  
 > Diciptakan dan dikembangkan oleh **Farhan Kertadiwangsa**
 
 ---
@@ -25,7 +25,7 @@
 
 ## Tentang .ky
 
-**.ky** adalah bahasa pemrograman interpretatif yang dirancang khusus untuk pelajar Indonesia — mulai dari tingkat SD, SMP, hingga SMA. Bahasa ini menggunakan kata kunci berbahasa Indonesia sehingga konsep pemrograman lebih mudah diserap tanpa hambatan bahasa asing.
+**kylang** adalah bahasa pemrograman interpretatif yang dirancang khusus untuk pelajar Indonesia — mulai dari tingkat SD, SMP, hingga SMA. Bahasa ini menggunakan kata kunci berbahasa Indonesia sehingga konsep pemrograman lebih mudah diserap tanpa hambatan bahasa asing.
 
 **Karakteristik utama:**
 
@@ -199,7 +199,8 @@ map["a"]    // 1
 
 ## Kata Kunci & Alias
 
-Bahasa .ky mendukung kata kunci utama berbahasa Indonesia beserta alias berbahasa Inggris untuk kemudahan transisi.
+Bahasa ky-
+lang mendukung kata kunci utama berbahasa Indonesia beserta alias berbahasa Inggris untuk kemudahan transisi.
 
 | Kata Kunci Utama | Alias                       | Fungsi                      |
 |------------------|-----------------------------|-----------------------------|
